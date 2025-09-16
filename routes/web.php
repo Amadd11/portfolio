@@ -4,6 +4,7 @@ use Inertia\Inertia;
 use App\Models\Project;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectController;
 
@@ -12,6 +13,7 @@ Route::get('/', function () {
         'projects' => Project::latest()->get(),
     ]);
 });
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/projects/{project:slug}', [ProjectController::class, 'show'])->name('projects.show');
 

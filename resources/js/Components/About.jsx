@@ -241,7 +241,7 @@ export default function About() {
 
                         {/* Download CV */}
                         <a
-                            href="/cv-amaadd.pdf"
+                            href="/CV-MuhammadSyafei.pdf"
                             download
                             className="flex items-center self-start gap-3 px-6 py-3 font-semibold text-white transition-all duration-300 transform bg-gray-800 rounded-lg shadow-lg dark:bg-gray-700 hover:bg-black dark:hover:bg-gray-600 hover:shadow-xl hover:-translate-y-1"
                         >

@@ -35,19 +35,13 @@ export default function Hero() {
                         }`}
                     >
                         <a
-                            href="#"
+                            href="https://www.instagram.com/aamaadd_"
                             className="text-gray-500 transition-colors dark:text-gray-400 hover:text-black dark:hover:text-white"
                         >
                             <FiInstagram size={24} />
                         </a>
                         <a
-                            href="#"
-                            className="text-gray-500 transition-colors dark:text-gray-400 hover:text-black dark:hover:text-white"
-                        >
-                            <FiTwitter size={24} />
-                        </a>
-                        <a
-                            href="#"
+                            href="https://github.com/Amadd11"
                             className="text-gray-500 transition-colors dark:text-gray-400 hover:text-black dark:hover:text-white"
                         >
                             <FiGithub size={24} />

@@ -13,7 +13,7 @@ export default function Welcome({ projects, aboutData }) {
     return (
         <>
             <Head>
-                <title>Amaadd's Portfolio - Web Developer</title>
+                <title>Portfolio - Web Developer</title>
                 <meta
                     name="description"
                     content="Portfolio of Amaadd, a professional web developer building scalable and modern websites."
@@ -26,7 +26,7 @@ export default function Welcome({ projects, aboutData }) {
                 <main>
                     <Hero />
                     {/* 2. Teruskan prop 'aboutData' ke komponen About */}
-                    <About  />
+                    <About />
                     {/* 3. Teruskan prop 'projects' ke komponen Work */}
                     <Work projects={projects} />
                     <Contact />
