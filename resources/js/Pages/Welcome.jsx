@@ -23,7 +23,7 @@ export default function Welcome({ projects, aboutData }) {
             <div className="relative min-h-screen font-sans text-gray-800 transition-colors duration-300 bg-gradient-to-br from-gray-50 to-blue-100 dark:bg-gray-900 dark:text-gray-200">
                 <BackgroundEffect />
                 <Navbar />
-                <main>
+                <main className="pt-20">
                     <Hero />
                     {/* 2. Teruskan prop 'aboutData' ke komponen About */}
                     <About />

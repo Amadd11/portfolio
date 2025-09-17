@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug');
             $table->text('description');
-            $table->string('imageUrl')->nullable();
+            $table->text('imageUrl')->nullable();
             $table->json('tags'); // Menyimpan tags sebagai array JSON
             $table->string('liveUrl')->nullable();
             $table->string('githubUrl')->nullable();

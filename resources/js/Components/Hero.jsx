@@ -117,7 +117,7 @@ export default function Hero() {
                 {/* Tombol Scroll Down (dengan animasi) */}
                 <a
                     href="#about"
-                    className={`absolute -bottom-20 left-1/2 -translate-x-1/2 hidden lg:flex items-center gap-2 text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-all duration-700 ease-out delay-500 ${
+                    className={`absolute -bottom-10 left-1/2 -translate-x-1/2 hidden lg:flex items-center gap-2 text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-all duration-700 ease-out delay-500 ${
                         isMounted ? "opacity-100" : "opacity-0"
                     }`}
                 >

@@ -22,7 +22,7 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="fixed top-0 left-0 z-50 flex items-center w-full h-20">
+        <header className="fixed top-0 left-0 z-50 flex items-center w-full h-20 dark:bg-gray-900 backdrop-blur-sm">
             <div className="flex items-center justify-between w-full max-w-screen-xl px-6 mx-auto">
                 {/* Logo */}
                 <Link
@@ -60,7 +60,6 @@ export default function Navbar() {
                     {isOpen ? <HiX size={30} /> : <HiMenuAlt3 size={30} />}
                 </button>
             </div>
-
             {/* Menu Dropdown Mobile */}
             <div
                 className={`md:hidden absolute top-0 left-0 w-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur-lg pt-24 pb-8 transform transition-transform duration-300 ease-in-out ${
